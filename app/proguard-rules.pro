@@ -190,11 +190,11 @@
 -dontwarn com.google.android.exoplayer2.**
 
 # 实体类
-#-keep class com.github.tvbox.osc.bean.** { *; }
+#-keep class com.github.hontv.osc.bean.** { *; }
 #CardView
--keep class com.github.tvbox.osc.ui.tv.widget.card.**{*;}
+-keep class com.github.hontv.osc.ui.tv.widget.card.**{*;}
 #ViewObj
--keep class com.github.tvbox.osc.ui.tv.widget.ViewObj{
+-keep class com.github.hontv.osc.ui.tv.widget.ViewObj{
     <methods>;
 }
 
@@ -202,6 +202,6 @@
 # 迅雷下载模块
 -keep class com.xunlei.downloadlib.** {*;}
 # quickjs引擎
--keep class com.github.tvbox.quickjs.** {*;}
+-keep class com.github.hontv.quickjs.** {*;}
 # 支持影视的ali相关的jar
 -keep class com.google.gson.**{*;}
